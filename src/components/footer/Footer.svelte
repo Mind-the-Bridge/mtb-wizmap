@@ -169,7 +169,7 @@
   </div>
 
   <div class="footer">
-    <span class="name"
+    <!-- <span class="name"
       ><span class="svg-icon">{@html iconWizmap}</span>WizMap
     </span>
     <div class="splitter"></div>
@@ -180,9 +180,9 @@
         Paper
       </span></a
     >
-    <div class="splitter"></div>
+    <div class="splitter"></div> -->
 
-    <a href="https://github.com/poloclub/wizmap"
+    <!-- <a href="https://github.com/poloclub/wizmap"
       ><span class="item">
         <span class="svg-icon">{@html iconGithub}</span>
         Code
@@ -196,7 +196,7 @@
         Video
       </span></a
     >
-    <div class="splitter"></div>
+    <div class="splitter"></div> -->
 
     <button
       on:click="{() => {

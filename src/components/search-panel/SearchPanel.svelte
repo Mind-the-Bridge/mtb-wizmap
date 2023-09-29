@@ -133,13 +133,13 @@
   </div>
 
   <div class="search-bar" class:focused="{inputFocused}">
-    <div class="svg-icon logo-icon">{@html iconWizmap}</div>
+    <!-- <div class="svg-icon logo-icon">{@html iconWizmap}</div> -->
     <input
       type="text"
       id="search-bar-input"
       name="search-query"
       bind:value="{searchInputValue}"
-      placeholder="Search WizMap Embeddings"
+      placeholder="Search MTB Ecosystem"
       spellcheck="false"
       on:focus="{() => {
         inputFocused = true;
